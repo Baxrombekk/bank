@@ -1,8 +1,10 @@
 import json
+import math
 Filename = "bank.json"
 def royxat():
     with open(Filename, "r") as file:
         return json.load(file)
+# Bu balans qismi
 def balans(username):
     miqdor = int(input("Qancha pul qo‘shmoqchisiz? "))
 
